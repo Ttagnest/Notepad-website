@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Notepad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="notepad">
+        <h1 id="title">Page 1</h1>
+        <div id="pages"></div>
+        <button type="button" id="add" onclick="add_page()">+</button>
+        <button type="button" id="add" onclick="remove_page()">-</button>
+        <textarea id="textarea" placeholder="Type your notes here..." oninput="savetext()"></textarea>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
